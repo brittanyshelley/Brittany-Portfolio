@@ -58,6 +58,7 @@ const About = () => {
           padding: "4rem",
           margin: "3rem auto",
           textAlign: "center",
+          zindex: "2",
         }}
       >
         <h2>About Myself</h2>
