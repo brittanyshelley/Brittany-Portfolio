@@ -1,7 +1,8 @@
 # Portfoliio surrently in the works
 
-"npm install"
+``` "npm install"
 "npm start"
+```
 
 
 
