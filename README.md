@@ -1,21 +1,18 @@
 # Portfolio Currently in the Works
 
-To get started with this project, run the following commands:
-
-```bash
-npm install
-npm start
-
-
-# Portfolio Currently in the Works
-
 Welcome to my portfolio project. Here's a preview of what I've been working on:
 
 ![Portfolio Image](https://github.com/brittanyshelley/codespaces-project-template-js/blob/main/Portfolio.png?raw=true "Portfolio Preview")
 
 Stay tuned for more updates as I continue to build and enhance this project.
 
+## Getting Started
 
+To get started with this project, run the following commands:
+
+```bash
+npm install
+npm start
 
 [![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://github.com/codespaces/new?hide_repo_select=true&ref=main&repo=526682619)
 
