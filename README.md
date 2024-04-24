@@ -1,11 +1,10 @@
-# Portfoliio surrently in the works
+# Portfolio Currently in the Works
 
-```npm install
+To get started with this project, run the following commands:
+
+```bash
+npm install
 npm start
-```javascript
-
-
-
 
 
 
