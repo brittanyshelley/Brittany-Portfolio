@@ -58,23 +58,65 @@
 import React from "react";
 import arrowSvg from "../images/down-arrow.svg"; // Ensure the path is correct
 import PropTypes from "prop-types";
+import { useEffect, useState } from "react";
+import Particles, { initParticlesEngine } from "@tsparticles/react";
+import { loadFull } from "tsparticles";
+import particlesOptions from "../particles.json";
+
 
 const imageAltText = "Description for the down arrow image if needed";
 
 const Home = ({ name, title }) => {
+
+  const [init, setInit] = useState(false);
+
+  useEffect(() => {
+    if (init) {
+      return;
+    }
+
+    initParticlesEngine(async (engine) => {
+      await loadFull(engine);
+    }).then(() => {
+      setInit(true);
+    });
+  }, []);
+
+  //   return (
+  //     <div id="tsparticles">
+  //       {init && <Particles options={particlesOptions} />}
+  //     </div>
+  //     <section id="home" className="min-height" style={{ display: "flex", flexDirection: "column", justifyContent: "center", alignItems: "center", height: "100vh" }}>
+  //       {/* Background image (if used, uncomment and update the src attribute)
+  //       <img className="background" src={image} alt="" style={{ position: "absolute", top: 0, left: 0, width: "100%", height: "100%", objectFit: "cover", zIndex: 1 }} />
+  //       */}
+  //       {/* {init && <Particles options={particlesOptions} />} */}
+  //       <div style={{ textAlign: "center", zIndex: 2 }}>
+  //         <h1>{name}</h1>
+  //         <h2>{title}</h2>
+  //       </div>
+  //       <div style={{ position: "absolute", bottom: "3rem", transform: 'translateX(-50%)', left: "50%", zIndex: "2" }}>
+  //         <img src={arrowSvg} style={{ height: "3rem", width: "3rem" }} alt={imageAltText} />
+  //       </div>
+  //     </section>
+  //   );
+  // };
+
   return (
-    <section id="home" className="min-height" style={{ display: "flex", flexDirection: "column", justifyContent: "center", alignItems: "center", height: "100vh" }}>
-      {/* Background image (if used, uncomment and update the src attribute)
-      <img className="background" src={image} alt="" style={{ position: "absolute", top: 0, left: 0, width: "100%", height: "100%", objectFit: "cover", zIndex: 1 }} />
-      */}
-      <div style={{ textAlign: "center", zIndex: 2 }}>
-        <h1>{name}</h1>
-        <h2>{title}</h2>
+    <>
+      <div id="tsparticles">
+        {init && <Particles options={particlesOptions} />}
       </div>
-      <div style={{ position: "absolute", bottom: "3rem", transform: 'translateX(-50%)', left: "50%" }}>
-        <img src={arrowSvg} style={{ height: "3rem", width: "3rem" }} alt={imageAltText} />
-      </div>
-    </section>
+      <section id="home" className="min-height" style={{ display: "flex", flexDirection: "column", justifyContent: "center", alignItems: "center", height: "100vh" }}>
+        <div style={{ textAlign: "center", zIndex: 2 }}>
+          <h1>{name}</h1>
+          <h2>{title}</h2>
+        </div>
+        <div style={{ position: "absolute", bottom: "3rem", transform: 'translateX(-50%)', left: "50%", zIndex: "2" }}>
+          <img src={arrowSvg} style={{ height: "3rem", width: "3rem" }} alt={imageAltText} />
+        </div>
+      </section>
+    </>
   );
 };
 

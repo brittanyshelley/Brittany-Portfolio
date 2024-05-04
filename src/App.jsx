@@ -59,7 +59,7 @@ const App = () => {
   return (
     <div id="main">
       <Header />
-      {init && <Particles options={particlesOptions} />}
+      {/* {init && <Particles options={particlesOptions} />} */}
       <Home name={siteProps.name} title={siteProps.title} />
       <About />
       <Portfolio />

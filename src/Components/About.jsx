@@ -50,15 +50,16 @@ const detailOrQuote =
 const About = () => {
   return (
     <section className="padding" id="about">
-      <img className="background" src={image} alt={imageAltText} />
+      {/* <img className="background" src={image} alt={imageAltText} /> */}
       <div
         style={{
-          backgroundColor: "white",
+          // backgroundColor: "white",
+          color: "white",
           width: "50%",
           padding: "4rem",
           margin: "3rem auto",
           textAlign: "center",
-          zindex: "2",
+          zindex: "10",
         }}
       >
         <h2>About Myself</h2>
@@ -71,6 +72,7 @@ const About = () => {
             fontSize: "1.25rem",
             margin: "2rem 3rem",
             gap: "3rem",
+            zindex: "10",
           }}
         >
           {skillsList.map((skill) => (

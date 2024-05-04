@@ -159,15 +159,17 @@ div#main {
 section {
   position: relative;
   width: 100vw;
+  z-index: 2;
 }
 
 section.min-height {
   min-height: 100vh;
-  color: white
+  color: white;
 }
 
 section.padding {
   padding: 5rem 0;
+  color: white;
 }
 
 section img.background {
@@ -270,5 +272,5 @@ img.socialIcon {
   padding: 0;
   left: 0;
   top: 0;
-  z-index: 2;
+  z-index: 0;
 }
