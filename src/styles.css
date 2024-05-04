@@ -242,7 +242,7 @@ a:hover {
   color: #4e567e;
 }
 
-.container {
+ /* .container {
   display: grid;
   grid-gap: 20px;
   grid-template-columns: 330px 300px;
@@ -257,7 +257,57 @@ a:hover {
   justify-content: flex-start;
   padding: 24px 16px;
   text-align: center;
+}  */
+
+
+
+
+
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* Adjust for layout */
+  gap: 20px;
+  padding: 20px;
+  justify-content: center;
 }
+
+.box {
+  background-color: #000; /* Light background for better visibility of glow */
+  border-radius: 10px; /* Rounded corners */
+  padding: 20px;
+  box-shadow: 0 0 20px rgba(255, 0, 0, 0.7); /* Initial red glow */
+  animation: glow 3s ease-in-out infinite; /* Animation for the glow effect */
+  transition: box-shadow 0.3s ease-in-out;
+}
+
+@keyframes glow {
+  0% { box-shadow: 0 0 20px rgba(255, 0, 0, 0.7); } /* Red */
+  16% { box-shadow: 0 0 20px rgba(255, 165, 0, 0.7); } /* Orange */
+  33% { box-shadow: 0 0 20px rgba(255, 255, 0, 0.7); } /* Yellow */
+  50% { box-shadow: 0 0 20px rgba(0, 255, 0, 0.7); } /* Green */
+  66% { box-shadow: 0 0 20px rgba(0, 0, 255, 0.7); } /* Blue */
+  83% { box-shadow: 0 0 20px rgba(75, 0, 130, 0.7); } /* Indigo */
+  100% { box-shadow: 0 0 20px rgba(148, 0, 211, 0.7); } /* Violet */
+}
+
+.box:hover {
+  box-shadow: 0 0 25px 5px rgba(255, 255, 255, 0.9); /* Brighter glow on hover */
+}
+
+.box a {
+  color: #fff; /* Dark text color for contrast */
+  text-decoration: none; /* Removes underline from links */
+}
+
+.box h3 {
+  margin: 0 0 10px 0; /* Space below the title */
+}
+
+.box p {
+  color: #666; /* Lighter text color */
+}
+
 
 img.socialIcon {
   height: 30px;
