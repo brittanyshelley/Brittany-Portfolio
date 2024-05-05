@@ -292,11 +292,12 @@ a:hover {
 }
 
 .box:hover {
-  box-shadow: 0 0 25px 5px rgba(255, 255, 255, 0.9); /* Brighter glow on hover */
+  animation-play-state: paused;
+  box-shadow: 0 0 25px 5px rgba(255, 255, 255, 0.9);
 }
 
 .box a {
-  color: #fff; /* Dark text color for contrast */
+  color: #fff; /* Light text color for contrast */
   text-decoration: none; /* Removes underline from links */
 }
 
@@ -307,6 +308,32 @@ a:hover {
 .box p {
   color: #666; /* Lighter text color */
 }
+
+
+
+.glow {
+  background-color: #000; /* Dark background for better visibility of glow */
+  color: #fff;
+  width: 50%;
+  padding: 4rem;
+  margin: 3rem auto;
+  text-align: center;
+  box-shadow: 0 0 20px rgba(255, 0, 0, 0.7); /* Initial red glow */
+  animation: glow 3s ease-in-out infinite; /* Animation for the glow effect */
+  position: relative; /* Ensure the div is positioned for z-index */
+  z-index: 10; /* Higher z-index */
+}
+
+@keyframes glow {
+  0% { box-shadow: 0 0 20px rgba(255, 0, 0, 0.7); } /* Red */
+  16% { box-shadow: 0 0 20px rgba(255, 165, 0, 0.7); } /* Orange */
+  33% { box-shadow: 0 0 20px rgba(255, 255, 0, 0.7); } /* Yellow */
+  50% { box-shadow: 0 0 20px rgba(0, 255, 0, 0.7); } /* Green */
+  66% { box-shadow: 0 0 20px rgba(0, 0, 255, 0.7); } /* Blue */
+  83% { box-shadow: 0 0 20px rgba(75, 0, 130, 0.7); } /* Indigo */
+  100% { box-shadow: 0 0 20px rgba(148, 0, 211, 0.7); } /* Violet */
+}
+
 
 
 img.socialIcon {
