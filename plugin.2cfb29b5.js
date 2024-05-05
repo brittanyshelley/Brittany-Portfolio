@@ -1,0 +1,2 @@
+var e=("undefined"!=typeof globalThis?globalThis:"undefined"!=typeof self?self:"undefined"!=typeof window?window:"undefined"!=typeof global?global:{}).parcelRequire6158;e.register("5qmd7",(function(n,i){var o,t,l,r;async function a(n,i=!0){const{LinksPlugin:o}=await e("gMS8c"),t=new o;await n.addPlugin(t,i)}o=n.exports,t="loadLinksPlugin",l=()=>a,Object.defineProperty(o,t,{get:l,set:r,enumerable:!0,configurable:!0})})),e.register("gMS8c",(function(n,i){n.exports=import("./"+e("27Lyk").resolve("837x5")).then((()=>e("28rYB")))}));
+//# sourceMappingURL=plugin.2cfb29b5.js.map

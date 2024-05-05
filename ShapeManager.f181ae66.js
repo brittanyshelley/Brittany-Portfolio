@@ -1,0 +1,2 @@
+("undefined"!=typeof globalThis?globalThis:"undefined"!=typeof self?self:"undefined"!=typeof window?window:"undefined"!=typeof global?global:{}).parcelRequire6158.register("gKbiF",(function(e,t){var n,r,a,o;n=e.exports,r="ShapeManager",a=()=>s,Object.defineProperty(n,r,{get:a,set:o,enumerable:!0,configurable:!0});const i=new Map;class s{constructor(e){this._engine=e}addShapeGenerator(e,t){this.getShapeGenerator(e)||i.set(e,t)}getShapeGenerator(e){return i.get(e)}getSupportedShapeGenerators(){return i.keys()}}}));
+//# sourceMappingURL=ShapeManager.f181ae66.js.map
