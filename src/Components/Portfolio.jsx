@@ -31,7 +31,7 @@ const imageAltText = "desktop with books and laptop";
  */
 const projectList = [
   {
-    title: "10 Things To Know About Azure Static Web Apps 🎉",
+    title: "My CV",
     description:
       "My CV",
     url: "https://flowcv.com/resume/lt75ebjrs9",
