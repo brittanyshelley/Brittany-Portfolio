@@ -27,45 +27,6 @@ const skillsList = [
 const detailOrQuote =
   "I am passionate about solving problems in new creative ways to drive innovation. By leveraging my UI/UX experience I continually look for new and better ways to make tech accessible by all.";
 
-// const About = () => {
-//   return (
-//     <section className="padding" id="about">
-//       <div
-//         style={{
-//           backgroundColor: "black",
-//           color: "white",
-//           width: "50%",
-//           padding: "4rem",
-//           margin: "3rem auto",
-//           textAlign: "center",
-//           zindex: "10",
-//         }}
-//       >
-//         <h2>About Myself</h2>
-//         <p className="large">{description}</p>
-//         <hr />
-//         <ul
-//           style={{
-//             textAlign: "left",
-//             columns: 2,
-//             fontSize: "1.25rem",
-//             margin: "2rem 3rem",
-//             gap: "3rem",
-//             zindex: "10",
-//           }}
-//         >
-//           {skillsList.map((skill) => (
-//             <li key={skill}>{skill}</li>
-//           ))}
-//         </ul>
-//         <hr />
-//         <p style={{ padding: "1rem 3rem 0" }}>{detailOrQuote}</p>
-//       </div>
-//     </section>
-//   );
-// };
-
-
 const About = () => {
   return (
     <section className="padding" id="about">

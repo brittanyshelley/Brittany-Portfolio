@@ -5,7 +5,6 @@
  */
 
 import React, { useEffect, useState } from "react";
-import Particles, { initParticlesEngine } from "@tsparticles/react";
 import { loadFull } from "tsparticles";
 
 import About from "./Components/About";
@@ -13,7 +12,7 @@ import Footer from "./Components/Footer";
 import Header from "./Components/Header";
 import Home from "./Components/Home";
 import Portfolio from "./Components/Portfolio";
-import particlesOptions from "./particles.json";
+import { initParticlesEngine } from "./particles";
 
 import "./styles.css";
 
