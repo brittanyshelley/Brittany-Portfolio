@@ -32,8 +32,7 @@ const imageAltText = "desktop with books and laptop";
 const projectList = [
   {
     title: "My CV",
-    description:
-      "My CV",
+    description: "My CV",
     url: "https://flowcv.com/resume/lt75ebjrs9",
   },
   {
