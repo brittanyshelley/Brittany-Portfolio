@@ -1,4 +1,6 @@
 
+  
+
   {
     "autoPlay": true,
     "background": {
@@ -11,7 +13,7 @@
       "cover": {
         "color": {
           "value": "#000000"
-        },
+          },
         "opacity": 1
       },
       "enable": true
@@ -25,7 +27,7 @@
         "value": 80
       },
       "color": {
-        "value": "#ffffff" 
+        "value": "#ffffff"
       },
       "shape": {
         "type": "char",
@@ -34,7 +36,7 @@
             "font": "Font Awesome 5 Free",
             "style": "",
             "weight": "900",
-            "value": ["\uf004", "\uf005"]  
+            "value": ["\uf004", "\uf005"]
           }
         }
       },
@@ -54,5 +56,4 @@
       }
     }
   }
-  
   
