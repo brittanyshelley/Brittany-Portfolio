@@ -1,3 +1,4 @@
+
 {
   "name": "brittany-portfolio",
   "version": "1.0.0",
@@ -13,12 +14,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/microsoft/Brittany-Portfolio.git"
+    "url": "git+https://github.com/brittanyshelley/Brittany-Portfolio.git"
   },
-  "author": "Microsoft",
+  "author": "Brittany Shelley",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/microsoft/Brittany-Portfolio/issues"
+    "url": "https://github.com/brittanyshelley/Brittany-Portfolio/issues"
   },
   "dependencies": {
     "@tsparticles/react": "^3.0.0",
@@ -40,3 +41,4 @@
     "process": "^0.11.10"
   }
 }
+
