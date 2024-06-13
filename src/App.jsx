@@ -3,8 +3,10 @@
  *
  * To contain application wide settings, routes, state, etc.
  */
-
-import React from "react";
+import React, { useEffect, useState } from "react";
+import Particles, { initParticlesEngine } from "@tsparticles/react";
+import { loadFull } from "tsparticles";
+import particlesOptions from "./particles2.json";
 
 
 import About from "./Components/About";
@@ -41,10 +43,24 @@ const primaryColor = "#4E567E";
 const secondaryColor = "#D2F1E4";
 
 const App = () => {
+  const [init, setInit] = useState(false);
+
+  useEffect(() => {
+    if (init) {
+      return;
+    }
+
+    initParticlesEngine(async (engine) => {
+      await loadFull(engine);
+    }).then(() => {
+      setInit(true);
+    });
+  }, [init]);
 
 
   return (
     <div id="main">
+      {init && <Particles options={particlesOptions} />}
       <Header />
       <Home name={siteProps.name} title={siteProps.title} />
       <About />
