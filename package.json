@@ -1,24 +1,24 @@
 {
-  "name": "educator-js-codespace-template",
+  "name": "brittany-portfolio",
   "version": "1.0.0",
-  "description": "Educator JS Codespace Template",
+  "description": "Brittany-Portfolio",
   "source": "src/index.html",
-  "homepage": "http://brittanyshelley.github.io/codespaces-project-template-js",
+  "homepage": "https://brittanyshelley.github.io/Brittany-Portfolio",
   "scripts": {
     "start": "parcel",
     "build": "parcel build",
-    "build-gh": "parcel build --public-url 'https://brittanyshelley.github.io/codespaces-project-template-js'",
+    "build-gh": "parcel build --public-url 'https://brittanyshelley.github.io/Brittany-Portfolio'",
     "predeploy": "npm run build-gh",
     "deploy": "gh-pages -d dist"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/microsoft/codespaces-teaching-template-js.git"
+    "url": "git+https://github.com/microsoft/Brittany-Portfolio.git"
   },
   "author": "Microsoft",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/microsoft/codespaces-teaching-template-js/issues"
+    "url": "https://github.com/microsoft/Brittany-Portfolio/issues"
   },
   "dependencies": {
     "@tsparticles/react": "^3.0.0",
