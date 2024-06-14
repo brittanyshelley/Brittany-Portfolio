@@ -6,6 +6,8 @@ Welcome to my portfolio project. Here's a preview of what I've been working on:
 
 Stay tuned for more updates as I continue to build and enhance this project.
 
+Here is a preview of the site so far "https://brittanyshelley.github.io/Brittany-Portfolio/"
+
 ## Getting Started
 
 To get started with this project, run the following commands:
