@@ -1,10 +1,12 @@
 # Portfolio Currently in the Works
 
 Welcome to my portfolio project. Here's a preview of what I've been working on:
+"https://brittanyshelley.github.io/Brittany-Portfolio/"
 
 ![Portfolio Image](https://github.com/brittanyshelley/codespaces-project-template-js/blob/main/Portfolio.png?raw=true "Portfolio Preview")
 
 Stay tuned for more updates as I continue to build and enhance this project.
+
 
 ## Getting Started
 
