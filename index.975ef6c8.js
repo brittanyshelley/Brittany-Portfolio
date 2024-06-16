@@ -27178,7 +27178,7 @@ $RefreshReg$(_c, "App");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","@tsparticles/react":"5fZYg","tsparticles":"dtavK","./particles2.json":"h2bBl","./Components/About":"kouZu","./Components/Footer":"7GWgX","./Components/Header":"9Dt2F","./Components/Home":"jIEVO","./Components/Portfolio":"lCaEt","./styles.css":"lW6qc","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"5fZYg":[function(require,module,exports) {
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","@tsparticles/react":"5fZYg","tsparticles":"dtavK","./particles2.json":"h2bBl","./Components/About":"kouZu","./Components/Footer":"7GWgX","./Components/Header":"9Dt2F","./Components/Home":"jIEVO","./Components/Portfolio":"lCaEt","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","./styles.css":"lW6qc"}],"5fZYg":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "Particles", ()=>(0, _particlesJsDefault.default));
@@ -41650,22 +41650,22 @@ const projectList = [
     {
         title: "My CV",
         description: "My CV",
-        url: "https://flowcv.com/resume/lt75ebjrs9"
-    },
-    {
-        title: "Web Development for Beginners",
-        description: "Contributed sketch note imagery to accompany each lesson. These help provide visual representation of what is being taught.",
-        url: "https://github.com/microsoft/web-dev-for-beginners"
+        url: "flowcv.me/brittany-shelley"
     },
     {
         title: "My Resume Site",
-        description: "Created from Microsoft's resume workshop and deployed to GitHub pages. Includes my experience and design abilities.",
-        url: "https://github.com/microsoft/workshop-library/tree/main/full/build-resume-website"
+        description: "Created with FlowCV",
+        url: "https://flowcv.com/resume/lt75ebjrs9"
     },
     {
-        title: "GitHub Codespaces and github.dev",
-        description: "Video interview to explain when to use GitHub.dev versus GitHub Codespaces, and how best to use each tool.",
-        url: "https://www.youtube.com/watch?v=c3hHhRME_XI"
+        title: "Tweeter",
+        description: "A Twitter clone that allows users to post tweets, like tweets, and follow other users.",
+        url: "https://brittanytweeter-ce1e83a55d18.herokuapp.com/"
+    },
+    {
+        title: "Broker Marketing Site",
+        description: "A Mortgage Broker Marketing site that I am currently working on",
+        url: "https://veronicaratefair.vercel.app/"
     }, 
 ];
 const Portfolio = ()=>{
@@ -41680,69 +41680,140 @@ const Portfolio = ()=>{
                 children: "Portfolio"
             }, void 0, false, {
                 fileName: "src/Components/Portfolio.jsx",
-                lineNumber: 32,
+                lineNumber: 30,
                 columnNumber: 7
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                style: {
-                    display: "flex",
-                    flexDirection: "row",
-                    paddingTop: "3rem"
-                },
-                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                    className: "container",
-                    children: projectList.map((project)=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                            className: "box",
-                            children: [
-                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
-                                    href: project.url,
-                                    target: "_blank",
-                                    rel: "noopener noreferrer",
-                                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h3", {
-                                        children: project.title
-                                    }, void 0, false, {
-                                        fileName: "src/Components/Portfolio.jsx",
-                                        lineNumber: 38,
-                                        columnNumber: 17
-                                    }, undefined)
+                className: "container",
+                children: projectList.map((project)=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                        className: "box",
+                        children: [
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
+                                href: project.url,
+                                target: "_blank",
+                                rel: "noopener noreferrer",
+                                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h3", {
+                                    children: project.title
                                 }, void 0, false, {
                                     fileName: "src/Components/Portfolio.jsx",
-                                    lineNumber: 37,
-                                    columnNumber: 15
-                                }, undefined),
-                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
-                                    className: "small",
-                                    children: project.description
-                                }, void 0, false, {
-                                    fileName: "src/Components/Portfolio.jsx",
-                                    lineNumber: 40,
+                                    lineNumber: 36,
                                     columnNumber: 15
                                 }, undefined)
-                            ]
-                        }, project.title, true, {
-                            fileName: "src/Components/Portfolio.jsx",
-                            lineNumber: 36,
-                            columnNumber: 13
-                        }, undefined))
-                }, void 0, false, {
-                    fileName: "src/Components/Portfolio.jsx",
-                    lineNumber: 34,
-                    columnNumber: 9
-                }, undefined)
+                            }, void 0, false, {
+                                fileName: "src/Components/Portfolio.jsx",
+                                lineNumber: 35,
+                                columnNumber: 13
+                            }, undefined),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                                className: "small",
+                                children: project.description
+                            }, void 0, false, {
+                                fileName: "src/Components/Portfolio.jsx",
+                                lineNumber: 38,
+                                columnNumber: 13
+                            }, undefined)
+                        ]
+                    }, project.title, true, {
+                        fileName: "src/Components/Portfolio.jsx",
+                        lineNumber: 34,
+                        columnNumber: 11
+                    }, undefined))
             }, void 0, false, {
                 fileName: "src/Components/Portfolio.jsx",
-                lineNumber: 33,
+                lineNumber: 32,
                 columnNumber: 7
             }, undefined)
         ]
     }, void 0, true, {
         fileName: "src/Components/Portfolio.jsx",
-        lineNumber: 31,
+        lineNumber: 29,
         columnNumber: 5
     }, undefined);
 };
 _c = Portfolio;
-exports.default = Portfolio;
+exports.default = Portfolio; // import React from "react";
+ // const projectList = [
+ //   {
+ //     title: "My CV",
+ //     description: "My CV",
+ //     url: "flowcv.me/brittany-shelley",
+ //   },
+ //   {
+ //     title: "My Resume Site",
+ //     description: "Created with FlowCV",
+ //     url: "https://flowcv.com/resume/lt75ebjrs9",
+ //   },
+ //   {
+ //     title: "Tweeter",
+ //     description:
+ //       "A Twitter clone that allows users to post tweets, like tweets, and follow other users.",
+ //     url: "https://brittanytweeter-ce1e83a55d18.herokuapp.com/",
+ //   },
+ //   {
+ //     title: "Broker Marketing Site",
+ //     description: "A Mortgage Broker Marketing site that I am currently working on",
+ //     url: "https://veronicaratefair.vercel.app/",
+ //   },
+ // ];
+ // const Portfolio = () => {
+ //   return (
+ //     <section className="portfolio-section" id="portfolio">
+ //       <h2 className="portfolio-title">Portfolio</h2>
+ //       <div className="portfolio-container">
+ //         {projectList.map((project) => (
+ //           <div className="portfolio-box" key={project.title}>
+ //             <a href={project.url} target="_blank" rel="noopener noreferrer">
+ //               <h3>{project.title}</h3>
+ //             </a>
+ //             <p className="portfolio-description">{project.description}</p>
+ //           </div>
+ //         ))}
+ //       </div>
+ //     </section>
+ //   );
+ // };
+ // export default Portfolio;
+ // import React from "react";
+ // const projectList = [
+ //   {
+ //     title: "My CV",
+ //     description: "My CV",
+ //     url: "flowcv.me/brittany-shelley",
+ //   },
+ //   {
+ //     title: "My Resume Site",
+ //     description: "Created with FlowCV",
+ //     url: "https://flowcv.com/resume/lt75ebjrs9",
+ //   },
+ //   {
+ //     title: "Tweeter",
+ //     description: "A Twitter clone that allows users to post tweets, like tweets, and follow other users.",
+ //     url: "https://brittanytweeter-ce1e83a55d18.herokuapp.com/",
+ //   },
+ //   {
+ //     title: "Broker Marketing Site",
+ //     description: "A Mortgage Broker Marketing site that I am currently working on",
+ //     url: "https://veronicaratefair.vercel.app/",
+ //   },
+ // ];
+ // const Portfolio = () => {
+ //   return (
+ //     <section className="portfolio-section" id="portfolio">
+ //       <h2 className="portfolio-title">Portfolio</h2>
+ //       <div className="portfolio-container">
+ //         {projectList.map((project) => (
+ //           <div className="portfolio-box" key={project.title}>
+ //             <a href={project.url} target="_blank" rel="noopener noreferrer">
+ //               <h3>{project.title}</h3>
+ //             </a>
+ //             <p className="portfolio-description">{project.description}</p>
+ //           </div>
+ //         ))}
+ //       </div>
+ //     </section>
+ //   );
+ // };
+ // export default Portfolio;
 var _c;
 $RefreshReg$(_c, "Portfolio");
 

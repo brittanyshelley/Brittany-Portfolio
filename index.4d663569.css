@@ -171,6 +171,7 @@ a:hover {
   text-align: center;
   z-index: 10;
   background-color: #000;
+  border-radius: 10px;
   margin: 3rem auto;
   padding: 4rem;
   animation: glow 3s ease-in-out infinite;
@@ -192,6 +193,10 @@ img.socialIcon {
   position: fixed;
   top: 0;
   left: 0;
+}
+
+.about {
+  borderRadius: "10px";
 }
 
 /*# sourceMappingURL=index.4d663569.css.map */
