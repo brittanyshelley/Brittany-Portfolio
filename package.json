@@ -10,7 +10,7 @@
     "build": "parcel build",
     "build-gh": "parcel build --public-url 'https://brittanyshelley.github.io/Brittany-Portfolio'",
     "predeploy": "npm run build-gh",
-    "deploy": "gh-pages -d dist"
+    "deploy": "gh-pages -d dist --repo https://$GITHUB_TOKEN@github.com/brittanyshelley/Brittany-Portfolio.git"
   },
   "repository": {
     "type": "git",
