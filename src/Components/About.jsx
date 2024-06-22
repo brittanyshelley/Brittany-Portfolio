@@ -4,21 +4,22 @@ import React from "react";
  * Sort description that expands on your title on the Home component.
  */
 const description =
-  "I'm a UI/UX student studying at Barnett Technical University. I enjoy creating unique and simplistic user interfaces in creative ways.";
+  "I'm a recent graduate from Lighthouse Labs Full Stack Web Developer Diploma program.";
 
 /**
  * List of some of skills or technologies you work on, are learning,
  * passionate about, or enjoy,
  */
-const skillsList = [
-  "Web design",
-  "User experience",
-  "Inclusive design",
-  "Focus group testing",
-  "Mobile user interfaces",
-  "Graphic design",
-];
+// const skillsList = [
+//   "HTML",
+//   "CSS",
+//   "ReactJS",
+//   "NextJS",
+//   "Mobile user interfaces",
+//   "Graphic design",
+// ];
 
+const skillsList = ["HTML", "CSS", "ReactJS", "NextJS", "Mobile user interfaces", "Graphic design"];
 /**
  * Use this to give more information about what you are passionate about,
  * how you best work, or even a quote. This will help someone learn more
