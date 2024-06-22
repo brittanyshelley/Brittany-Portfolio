@@ -19,7 +19,7 @@ const description =
 //   "Graphic design",
 // ];
 
-const skillsList = ["HTML", "CSS", "ReactJS", "NextJS", "Mobile user interfaces", "Graphic design"];
+const skillsList = ["HTML", "CSS", "Express", "ReactJS", "NextJS", "Mobile user interfaces", "Graphic design"];
 /**
  * Use this to give more information about what you are passionate about,
  * how you best work, or even a quote. This will help someone learn more
