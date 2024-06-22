@@ -1,2 +1,0 @@
-var e=("undefined"!=typeof globalThis?globalThis:"undefined"!=typeof self?self:"undefined"!=typeof window?window:"undefined"!=typeof global?global:{}).parcelRequire6158;e.register("fMR6D",(function(n,r){var o,t,a,i;o=n.exports,t="PolygonDrawer",a=()=>s,Object.defineProperty(o,t,{get:a,set:i,enumerable:!0,configurable:!0});var l=e("4x3bi");class s extends l.PolygonDrawerBase{getCenter(e,n){return{x:-n/(e.sides/3.5),y:-n/.76}}getSidesData(e,n){const r=e.sides;return{count:{denominator:1,numerator:r},length:2.66*n/(r/3)}}}}));
-//# sourceMappingURL=PolygonDrawer.5036a205.js.map

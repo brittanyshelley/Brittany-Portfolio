@@ -1,2 +1,0 @@
-var e=("undefined"!=typeof globalThis?globalThis:"undefined"!=typeof self?self:"undefined"!=typeof window?window:"undefined"!=typeof global?global:{}).parcelRequire6158;e.register("19Crt",(function(n,r){var t,o,a,i;t=n.exports,o="TriangleDrawer",a=()=>d,Object.defineProperty(t,o,{get:a,set:i,enumerable:!0,configurable:!0});var l=e("4x3bi");class d extends l.PolygonDrawerBase{getCenter(e,n){return{x:-n,y:n/1.66}}getSidesCount(){return 3}getSidesData(e,n){return{count:{denominator:2,numerator:3},length:2*n}}}}));
-//# sourceMappingURL=TriangleDrawer.723a44f3.js.map

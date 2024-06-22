@@ -1,2 +1,0 @@
-var e=("undefined"!=typeof globalThis?globalThis:"undefined"!=typeof self?self:"undefined"!=typeof window?window:"undefined"!=typeof global?global:{}).parcelRequire6158;e.register("jvx4N",(function(a,n){var t,i,o,r;async function d(a,n=!0){const{StarDrawer:t}=await e("ipO2d");await a.addShape("star",new t,n)}t=a.exports,i="loadStarShape",o=()=>d,Object.defineProperty(t,i,{get:o,set:r,enumerable:!0,configurable:!0})})),e.register("ipO2d",(function(a,n){a.exports=import("./"+e("27Lyk").resolve("a7mE9")).then((()=>e("lYydV")))}));
-//# sourceMappingURL=browser.839981e1.js.map
