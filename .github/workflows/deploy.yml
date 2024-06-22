@@ -10,25 +10,26 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - uses: actions/checkout@v2
+      - name: Checkout repository
+        uses: actions/checkout@v3
 
-    - name: Set up Node.js
-      uses: actions/setup-node@v2
-      with:
-        node-version: '14'
+      - name: Set up Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '20'
 
-    - name: Install dependencies
-      run: npm install
+      - name: Install dependencies
+        run: npm install
 
-    - name: Build the project
-      run: npm run build-gh
+      - name: Build the project
+        run: npm run build-gh
 
-    - name: Configure Git
-      run: |
-        git config --global user.name "brittanyshelley"
-        git config --global user.email "brittany.j.shelley@gmail.com"
+      - name: Configure Git
+        run: |
+          git config --global user.name "brittanyshelley"
+          git config --global user.email "brittany.j.shelley@gmail.com"
 
-    - name: Deploy to GitHub Pages
-      run: npm run deploy
-      env:
-        GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
+      - name: Deploy to GitHub Pages
+        run: npm run deploy
+        env:
+          GH_TOKEN: ${{ secrets.GH_TOKEN }}
