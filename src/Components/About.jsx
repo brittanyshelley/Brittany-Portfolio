@@ -4,7 +4,7 @@ import React from "react";
  * Sort description that expands on your title on the Home component.
  */
 const description =
-  "I'm a recent graduate from Lighthouse Labs Full Stack Web Developer Diploma program.";
+  "I'm a recent graduate from Lighthouse Labs Full Stack Web Developer Diploma program.I have experience with all of the following.";
 
 /**
  * List of some of skills or technologies you work on, are learning,
@@ -36,6 +36,7 @@ const About = () => {
         <p className="large">{description}</p>
         <hr />
         <ul style={{
+          display: "grid",
             textAlign: "left",
             columns: 2,
             fontSize: "1.25rem",

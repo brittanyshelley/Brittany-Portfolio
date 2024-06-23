@@ -9,7 +9,7 @@ import { loadFull } from "tsparticles";
 import particlesOptions from "./particles2.json";
 
 
-import About from "./Components/About";
+import About2 from "./Components/About2";
 import Footer from "./Components/Footer";
 import Header from "./Components/Header";
 import Home from "./Components/Home";
@@ -63,7 +63,7 @@ const App = () => {
       {init && <Particles options={particlesOptions} />}
       <Header />
       <Home name={siteProps.name} title={siteProps.title} />
-      <About />
+      <About2 />
       <Portfolio />
       <Footer {...siteProps} primaryColor={primaryColor} secondaryColor={secondaryColor} />
     </div>
