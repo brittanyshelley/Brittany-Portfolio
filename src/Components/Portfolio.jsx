@@ -2,11 +2,6 @@ import React from "react";
 
 const projectList = [
   {
-    title: "My CV",
-    description: "My CV",
-    url: "flowcv.me/brittany-shelley",
-  },
-  {
     title: "My Resume Site",
     description: "Created with FlowCV",
     url: "https://flowcv.com/resume/lt75ebjrs9",
